@@ -2,24 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { RouterProvider ,createBrowserRouter} from 'react-router-dom';
-import Home from './pages/Home';
-import Cadastro from './pages/cadas';
-import Objeto from './pages/objeto';
-
+import Home from './Pages/Home';
+import About from './Pages/About';
+import ErrorPage from './Pages/error/erro';
 const routes = createBrowserRouter([
   {
     path: "/", // caminho
     element: <Home/>,
+    errorElement: <ErrorPage />,
   },
   {
-    path: "/cadas",
-    element: <Cadastro />
+    path: "/about",
+    element: <About />
   },
-  {
-    path: "/objeto",
-    element: <Objeto />
-  },
-]);
- 
+])
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<RouterProvider router={routes}/>)
+ 

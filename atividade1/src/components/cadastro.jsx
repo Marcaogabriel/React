@@ -17,8 +17,8 @@ export function Cadastro(){
         mostarnovoEmail("")
     }
     return(
-        <div className="App-header">
-            <form>
+        <div>
+            <form className="box">
             <div>
                 <label htmlFor="nome">Nome: </label>
                 <input type="text" id="nome" name="nome"  placeholder="Digite seu Username:"  onChange={(e) => novoName(e.target.value)}/>

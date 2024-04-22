@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background-color: rgb(17, 17, 17);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px ;
+  background-color:rgb(39 39 39);
+  border-radius: 5px;
+
+}
+
+.opcoes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 5px 0px 0px 55px;
+  color: white; 
+
+}
+
+.opcoes img{
+  width: 200px;
+  height: 300px;
+}
+
+.centro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#ceno{
+  display: flex; 
+  align-items: center; 
+  justify-content:  center;
+  text-align: center;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+}
+
+.informacoes{
+  color: white;
+}
+
+.informacoes p{
+  text-align: left;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
