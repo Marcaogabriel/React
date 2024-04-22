@@ -14,7 +14,7 @@ export default function Home() {
         <div className='opcoes'>
           {filmes.map((filme) => (
             <div>
-              <img src={filme.img} alt="" onClick={() => navigate(`/about`, {state: filme})} style={{cursor: 'pointer'}}/>
+              <img src={filme.img} alt="" onClick={() => navigate(`/about`, {state: filme})} className='cartaz'/>
               <p>{filme.nome}</p> 
               <p>{filme.nota}</p>
               <p>{filme.ano}</p>
