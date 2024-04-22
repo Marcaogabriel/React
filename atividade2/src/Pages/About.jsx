@@ -9,7 +9,7 @@ export default function About() {
 
   return (
     <div id='ceno'>
-      <div className='container'>
+      <div className='container-filme'>
         
       <img  src={state.img} alt={state.id} style={{
          width: "242px", 
@@ -23,7 +23,7 @@ export default function About() {
             <h4>Diretor: {state.diretor}</h4>
             <h5><strong>Avaliação dos Usuários:  {state.avaliacaousuario}</strong></h5>
             <p> <h3>Sinopse do Filme:</h3>{state.sinopse}</p>
-            <Button Button texto={'Voltar'} onClick={() => navigate('/')}></Button>
+            <Button Button texto={'Retornar'} onClick={() => navigate('/')}></Button>
 
         </div>
 

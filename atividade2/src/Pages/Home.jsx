@@ -10,11 +10,11 @@ export default function Home() {
       <header className='centro'>
         <h1>Filmes em Catalogo</h1>   
       </header>
-      <div className='container'>
+      <div className='container-opcoes'>
         <div className='opcoes'>
           {filmes.map((filme) => (
-            <div>
-              <img src={filme.img} alt="" onClick={() => navigate(`/about`, {state: filme})} className='cartaz'/>
+            <div className='cartaz'>
+              <img src={filme.img} alt="" onClick={() => navigate(`/about`, {state: filme})} className='animation'/>
               <p>{filme.nome}</p> 
               <p>{filme.nota}</p>
               <p>{filme.ano}</p>
