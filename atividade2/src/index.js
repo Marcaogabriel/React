@@ -4,7 +4,7 @@ import './index.css';
 import { RouterProvider ,createBrowserRouter} from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import ErrorPage from './Pages/error/erro';
+import ErrorPage from './Pages/erro';
 const routes = createBrowserRouter([
   {
     path: "/", // caminho
