@@ -19,7 +19,7 @@ export default function About() {
       
         <div className='informacoes'>
             <h1>{state.nome}</h1>
-            <h3>{state.ano}</h3>
+            <h4>{state.ano}</h4>
             <h4>Diretor: {state.diretor}</h4>
             <h5><strong>Avaliação dos Usuários:  {state.avaliacaousuario}</strong></h5>
             <p> <h3>Sinopse do Filme:</h3>{state.sinopse}</p>
