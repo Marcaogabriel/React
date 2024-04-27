@@ -2,7 +2,6 @@ import React from "react";
 import { useRouteError } from "react-router-dom";
 
 export default function ErrorPage() {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   const erro = useRouteError();
   console.error(erro );
 
@@ -16,9 +15,8 @@ export default function ErrorPage() {
         height: "100vh",
       }}
     >
-      <div>
-        <h1 style={{ color: "#ff002b",}} > Oops!</h1>
-        
+    <div>
+      <h1 style={{ color: "#ff002b",}} > Oops!</h1>  
         <div style={{color: "#ffffff"}}>
           <p>Desculpa, ocorreu um erro inesperado.</p>
           <p>{erro.status} - {erro.statusText || erro.message}</p>
