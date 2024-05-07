@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background-color: rgb(34, 34, 34);
+  color: rgb(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.caixote{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 300px;
+  background-color: rgb(68, 68, 68);  
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 50px;
+  margin: 70px;
+  border-radius: 8px;
+
+}
+.caixa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 300px;
+  background-color: rgb(68, 68, 68);  
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  border-radius: 8px;
+
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.sim{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+
+}
+ 
+
+.palpites{
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.palpites button{
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: transform 0.5 linear;
+}
+
+.palpites button:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+ 
