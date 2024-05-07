@@ -7,15 +7,19 @@ export default function Projeto() {
             <h1>Projetos</h1>
             <article>
                 <h4>Cadastro</h4>
-                <p>Descrição do projeto 1</p>
+                <p>https://github.com/Marcaogabriel/React/tree/main/atividade1</p>
             </article>
             <article>
-                <h4>Projeto 2</h4>
-                <p>Descrição do projeto 2</p>
+                <h4>Catalogos de Filmes</h4>
+                <p>https://github.com/Marcaogabriel/React/tree/main/atividade2</p>
             </article>
             <article>
-                <h4>Projeto 3</h4>
-                <p>Descrição do projeto 3</p>
+                <h4>Jogo de cartas</h4>
+                <p>https://github.com/Marcaogabriel/React/tree/main/atividade3</p>
+            </article>
+            <article>
+                <h4>Farmacia</h4>
+                <p>https://github.com/Marcaogabriel/React/tree/main/atividade3</p>
             </article>
         </section>
     </div>

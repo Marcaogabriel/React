@@ -4,7 +4,6 @@ import './index.css';
 import { RouterProvider ,createBrowserRouter} from 'react-router-dom';
 import Home from './pages/Home';
 import Cadastro from './pages/cadas';
-import Objeto from './pages/objeto';
 
 const routes = createBrowserRouter([
   {
@@ -14,11 +13,7 @@ const routes = createBrowserRouter([
   {
     path: "/cadas",
     element: <Cadastro />
-  },
-  {
-    path: "/objeto",
-    element: <Objeto />
-  },
+  }
 ]);
  
 const root = ReactDOM.createRoot(document.getElementById('root'));

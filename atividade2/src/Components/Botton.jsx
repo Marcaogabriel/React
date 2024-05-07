@@ -1,8 +1,8 @@
-import React from 'react';
-import "./button.css";
-export default function Button({onClick, texto}) {
+import './button.css'
+
+export function Button(){
+
   return (
-    <button onClick={() => onClick()}>{texto}</button>
-    
+    <button className='botao'>Retornar</button>
   )
 }

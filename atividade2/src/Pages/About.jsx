@@ -4,7 +4,7 @@ import { Button } from '../Components'
 
 export default function About() {
 
-  const {state} = useLocation()
+    const {state} = useLocation()
   const navigate = useNavigate()
 
   return (

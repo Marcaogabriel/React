@@ -34,7 +34,7 @@ export function Cadastro(){
                 <div>
                     <p>O seu Email é: {emailorigi}</p>
                     <p>O seu Usuario é: {usuario}</p>
-                    <button onClick={Desativar}>Limpar</button>
+                    <button onClick={Desativar}>Limpar</button>,
                 </div>
             }
             </form>

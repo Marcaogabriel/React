@@ -1,10 +1,9 @@
-import React from 'react'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom' 
 import { filmes } from '../Components/filmes'
 
 export default function Home() {
+  const navigate = useNavigate() 
 
-  const navigate = useNavigate()
   return (
     <div>
       <header className='centro'>
@@ -21,9 +20,11 @@ export default function Home() {
               <p>{/*<h2>Lançamento: </h2>*/}{filme.ano}</p> 
             </div>
           ))}
-
+            <button className='botao' onClick={() => navigate('/gato')}>Gato</button>
+        
         </div>
       </div>
+
     </div>
   )
 }

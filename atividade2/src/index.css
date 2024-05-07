@@ -101,3 +101,23 @@ code {
   flex-wrap: wrap;
 
 }*/
+
+#Gatinho{
+  background-color: white;
+}
+
+.meio{
+  background-color: rgb(39 39 39);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px ;
+  padding: 10px;
+  cursor: pointer; 
+}
+
+.lado{
+  float: left;
+  background-color: rgb(255, 255, 255); 
+  width: 400px;
+  height: 200px;
+}
