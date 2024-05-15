@@ -21,7 +21,11 @@ code {
   align-items: center;
   justify-content: start;
   box-shadow: 1px 1px 3px gray;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  
 }
+
 
 .header *{
   margin: 10px;
@@ -168,4 +172,17 @@ code {
   flex-direction: column;
   float: none;
   gap: 10px;
+}
+
+section.home{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+section.home article{
+  margin: 10px;
 }

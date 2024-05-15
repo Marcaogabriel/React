@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Carta = ({ carta }) => {
+function Carta({ carta }) {
   return (
     <div className="carta">
       <img src={carta.image} alt={`${carta.value} de ${carta.suit}`} />
@@ -8,7 +8,7 @@ const Carta = ({ carta }) => {
   );
 };
 
-const AdivinheACarta = () => {
+export default function AdivinheACarta(){
   const [deckId, setDeckId] = useState("");
   const [cartaAtual, setCartaAtual] = useState(null);
   const [proximaCarta, setProximaCarta] = useState(null);
@@ -25,7 +25,7 @@ const AdivinheACarta = () => {
       .catch(error => console.error("Erro ao embaralhar o baralho:", error));
   }, []);
 
-  const puxarCarta = () => {
+  function puxarCarta(){
     fetch(`https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=1`)
       .then(response => response.json())
       .then(data => {
@@ -35,7 +35,7 @@ const AdivinheACarta = () => {
       .catch(error => console.error("Erro ao puxar carta:", error));
   };
 
-  const lidarComPalpite = (palpite) => {
+  function lidarComPalpite(palpite){
     setPalpite(palpites);
     const valorCartaAtual = obterValorDaCarta(cartaAtual);
     const valorProximaCarta = obterValorDaCarta(proximaCarta);
@@ -113,4 +113,3 @@ const AdivinheACarta = () => {
   );
 };
 
-export default AdivinheACarta;

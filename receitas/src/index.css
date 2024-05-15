@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-color: rgb(43, 43, 43);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.header{
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: rgba(88, 88, 88, 0.507);
+  width: 80%;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 8px;
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .5s;
+  transition: transform 0.3s linear;
+}
+
+.btn:hover{
+  opacity: 1;
+  background-color: gray;
+  color: white;
+}
+
+.mg-auto{
+  width: 8%;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+} 

@@ -1,10 +1,10 @@
 import React from 'react'
-import {Header, Section1} from '../components'
+import {Header, Inicio} from '../components'
 export default function Home() {
   return (
     <div>
         <Header/>
-        <Section1/>
+        <Inicio/>
     </div>
   )
 }

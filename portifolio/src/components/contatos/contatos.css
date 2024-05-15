@@ -1,0 +1,82 @@
+#contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: auto;
+    width: auto;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+#contatos article div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    height: 20px;
+    width: auto;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#contatos article div h4 {
+    font-size:  18px;
+}
+
+
+#contatos article div p {
+    font-size:  14px;
+}
+
+
+#contatos article div svg {
+    width: 30px ;
+    height: 30px ;
+}
+
+
+#contatos article {
+    padding: 15px 5px 15px 5px;
+    text-align: left;
+    width: 95%;
+    border: 1px solid #ffffff3b;
+    border-radius: 7px;
+}
+
+
+#contatos article h4 {
+    font-size:  20px;
+    margin: 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+#contatos article p {
+    font-size:  16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section#contatos {
+    padding-top: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white; 
+}
+     

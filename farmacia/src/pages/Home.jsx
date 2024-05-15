@@ -10,7 +10,6 @@ export default function Home() {
      <Header/>
   
       <section className='home'>
-        
         <h1 className='h1w100'>Produtos</h1>
           <article>
             <div>
